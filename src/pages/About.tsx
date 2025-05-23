@@ -105,9 +105,9 @@ const About: React.FC = () => {
                   </p>
                   <p>
                     When I&apos;m not coding, you&apos;ll find me exploring
-                    Nairobi&apos;s outdoors, trying out new coffee spots, or
-                    contributing to open-source projects. I'm open to exciting
-                    collaborations and opportunities, feel free to reach out!
+                    Nairobi&apos;s outdoors or trying out new coffee spots. I'm
+                    open to exciting collaborations and opportunities, feel free
+                    to reach out!
                   </p>
                 </div>
                 <div className="mt-8">
