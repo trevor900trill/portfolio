@@ -1,7 +1,7 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
-import { Project } from '../../data/projectsData';
+import React from "react";
+import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
+import { Project } from "../../data/projectsData";
 
 interface ProjectCardProps {
   project: Project;
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
             {project.category}
           </span>
         </div>
-        
+
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           {project.description}
         </p>
@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a
+          {/* <a
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -60,8 +60,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           >
             <Github size={18} />
             <span>Code</span>
-          </a>
-          
+          </a> */}
+
           {project.liveUrl && (
             <a
               href={project.liveUrl}
