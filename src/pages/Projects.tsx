@@ -21,9 +21,7 @@ const Projects: React.FC = () => {
   const projectCount = useMemo(() => {
     const counts: Record<string, number> = {
       all: projects.length,
-      frontend: 0,
-      backend: 0,
-      fullstack: 0,
+      web: 0,
       mobile: 0,
     };
 

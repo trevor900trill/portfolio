@@ -6,7 +6,7 @@ export interface Project {
   technologies: string[];
   githubUrl: string;
   liveUrl?: string;
-  category: "frontend" | "backend" | "fullstack" | "mobile";
+  category: "web" | "mobile";
   featured: boolean;
 }
 
@@ -18,7 +18,7 @@ export const projects: Project[] = [
       "A mobile application for vendors to manage their products, orders, and deliveries with real-time tracking.",
     image:
       "https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React Native", "Node.js", "MongoDB", "Redux"],
+    technologies: ["Flutter", ".NET", "SQL Server", "AWS"],
     githubUrl: "https://github.com",
     liveUrl: "https://play.google.com/store/apps/details?id=com.vendor.zapp",
     category: "mobile",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
       "A mobile application for couriers to manage deliveries with real-time tracking and route optimization.",
     image:
       "https://images.pexels.com/photos/4391470/pexels-photo-4391470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React Native", "Node.js", "MongoDB", "Redux"],
+    technologies: ["Flutter", ".NET", "SQL Server", "AWS"],
     githubUrl: "https://github.com",
     liveUrl:
       "https://play.google.com/store/apps/details?id=com.vendor.zappCourier",
@@ -45,10 +45,10 @@ export const projects: Project[] = [
       "A comprehensive payroll management system with features for salary calculations, tax deductions, reporting, and employee management.",
     image:
       "https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React", "Node.js", "PostgreSQL", "Material UI", "Docker"],
+    technologies: ["Vue", "Element UI", "Docker"],
     githubUrl: "https://github.com",
     liveUrl: "https://payroll.qwikpace.com",
-    category: "fullstack",
+    category: "web",
     featured: false,
   },
   {
@@ -58,10 +58,10 @@ export const projects: Project[] = [
       "A waste management solution with real-time tracking, analytics, and reporting features for efficient waste collection and disposal.",
     image:
       "https://images.pexels.com/photos/5726837/pexels-photo-5726837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "AWS"],
+    technologies: ["React", "Material UI", "Tailwind CSS"],
     githubUrl: "https://github.com",
     liveUrl: "https://weee.qwikpace.com",
-    category: "fullstack",
+    category: "web",
     featured: false,
   },
   {
@@ -71,10 +71,10 @@ export const projects: Project[] = [
       "A comprehensive fuel management platform with inventory control, sales tracking, and reporting capabilities.",
     image:
       "https://images.pexels.com/photos/9796/car-refill-transportation-transport.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React", "Node.js", "PostgreSQL", "Material UI"],
+    technologies: ["React", "Hero UI", "Tailwind CSS"],
     githubUrl: "https://github.com",
     liveUrl: "https://fuelguru.qwikpace.com",
-    category: "fullstack",
+    category: "web",
     featured: false,
   },
 ];
