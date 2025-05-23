@@ -38,8 +38,8 @@ const About: React.FC = () => {
           >
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8">
               I'm a full-stack developer with a passion for creating elegant,
-              high-performance web applications that deliver exceptional user
-              experiences.
+              high-performance web and mobile applications that deliver
+              exceptional user experiences.
             </p>
             <Button
               href="/Trevor-Resume.pdf"
