@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4 max-w-md">
               Full-stack developer with a passion for building exceptional web
-              applications that combine elegant design with powerful
+              and mobile applications that combine elegant design with powerful
               functionality.
             </p>
             <div className="flex gap-4">
