@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Software Developer",
+    title: "Full Stack Developer",
     company: "Stagic",
     location: "Denmark, Coppenhagen(Remote)",
     period: "December 2023 - April 2024",
@@ -74,7 +74,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Co Founder/Full Stack Developer",
     company: "Zapp",
     location: "Nairobi, Kenya(Remote)",
     period: "Mar 2020 - Dec 2021",
