@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import PageTransition from "../components/ui/PageTransition";
 import SectionHeading from "../components/ui/SectionHeading";
-import ContactForm from "../components/contact/ContactForm";
+// import ContactForm from "../components/contact/ContactForm";
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
 
 const Contact: React.FC = () => {
@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
               <h2 className="text-2xl font-bold mb-6">Connect</h2>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/trevor900trill"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-primary-100 hover:text-primary-600 dark:hover:bg-primary-900/50 dark:hover:text-primary-400 transition-colors"
@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
                   <Github size={22} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/trevor-mugo-195a55193/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-primary-100 hover:text-primary-600 dark:hover:bg-primary-900/50 dark:hover:text-primary-400 transition-colors"
@@ -110,7 +110,7 @@ const Contact: React.FC = () => {
                   <Linkedin size={22} />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/M_U_G_O_H"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-primary-100 hover:text-primary-600 dark:hover:bg-primary-900/50 dark:hover:text-primary-400 transition-colors"
@@ -122,14 +122,14 @@ const Contact: React.FC = () => {
             </motion.div>
 
             {/* Contact Form */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <h2 className="text-2xl font-bold mb-8">Send me a message</h2>
               <ContactForm />
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </section>
