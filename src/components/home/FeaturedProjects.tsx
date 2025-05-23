@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import SectionHeading from "../ui/SectionHeading";
 import Button from "../ui/Button";
 import { projects } from "../../data/projectsData";
@@ -56,7 +56,7 @@ const FeaturedProjects: React.FC = () => {
                   </div>
 
                   <div className="flex items-center gap-4">
-                    <a
+                    {/* <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const FeaturedProjects: React.FC = () => {
                     >
                       <Github size={18} />
                       <span>Code</span>
-                    </a>
+                    </a> */}
 
                     {project.liveUrl && (
                       <a
